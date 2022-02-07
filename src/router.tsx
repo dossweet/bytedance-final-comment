@@ -5,7 +5,7 @@ export default function Router() {
     <HashRouter>
       <Routes>
         <Route path="/" element={12} />
-        <Route path="/23" element={23} />
+        <Route path="/23" element={2333} />
       </Routes>
     </HashRouter>
   );

@@ -1,0 +1,24 @@
+{
+  "browser_action": {
+    "default_icon": {},
+    "default_popup": "entry.html#/23",
+    "default_title": "即时社区"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' ws://localhost:3000 http://localhost:3000; object-src 'self'",
+  "description": "让讨论区无处不在",
+  "icons": {},
+  "manifest_version": 2,
+  "name": "及时社区",
+  "offline_enabled": false,
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs",
+    "alarms",
+    "http://*/",
+    "https://*/"
+  ],
+  "short_name": "即使社区",
+  "version": "0.1",
+  "web_accessible_resources": ["*"]
+}
